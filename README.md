@@ -12,7 +12,7 @@ Learning to detect 3D facial landmarks via heatmap regression with Graph Convolu
 
 Our 3D face alignment model is shown as follows: 
 
-<img src="C:\Users\yuawang\AppData\Roaming\Typora\typora-user-images\image-20211203202518990.png" alt="image-20211203202518990" style="zoom: 67%;" />
+<img src="figure\3DFA-GCN.png" alt="3DFA-GCN" style="zoom: 67%;" />
 
 We train our model on three publicly available datasets, include **BU-3DFE** (Yin et al. 2006), **FRGCv2.0** (Phillips et al. 2005) and **FaceScape** (Yang et al. 2020) to demonstrate the effectiveness of the proposed method. Our proposed method achieves **15.1%** and **10.6%** improvements in terms of the average ME on the BU-3DFE dataset and FRGCv2 dataset respectively. The ME and Std scores by the proposed method reach **1.60** and **1.18** on FaceScape dataset, respectively.
 
